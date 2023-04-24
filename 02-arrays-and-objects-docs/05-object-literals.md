@@ -79,13 +79,13 @@ If you want to use multiple words as a property name or key, you can use quotes 
 
 ```js
 const person2 = {
-  'first name': 'Brad',
-  'last name': 'Traversy',
+  'first name': 'Nazrul',
+  'last name': 'Islam',
 };
 ```
 
 We have to use bracket notation when using property names with multiple words.
 
 ```js
-person2['first name']; // Brad
+person2['first name']; // Nazrul
 ```

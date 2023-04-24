@@ -9,7 +9,7 @@ There are a few reasons why you may want to use an IIFE. One of the biggest reas
 If I have a second JavaScript file loading, whether I created it or it is some 3rd party library, etc and in that file is something like this.
 
 ```JavaScript
-	const user = 'Brad';
+	const user = 'Nazrul';
 ```
 
 and then in my script I don't know about that global variable and I create a variable with the same name, it will break my script. Becaue we are defining two variables in the same scope.
@@ -31,7 +31,7 @@ The syntax for an IIFE is a little strange. You have to wrap the function keywor
 })();
 
 // Outside of IIFE
-console.log(user); // Brad
+console.log(user); // Nazrul
 ```
 
 When it comes to global scope pollution, if you have a small script with little to no dependencies, this most likely won't be a problem. If you have a larger project, especially if multiple people are working on it, then you may want to use an IIFE because you don't know exactly which variables and functions have been defined.

@@ -144,8 +144,8 @@ x = x.trim(); // Hello World!
 Replace all instances of a string
 
 ```JavaScript
-  const url = 'https://traversymedia.com';
-  url.replace('traversymedia', 'google'); // https://google.com
+  const url = 'https://nazrulislam.dev';
+  url.replace('nazrulislam', 'google'); // https://google.com
 ```
 
 ### includes()
@@ -161,7 +161,7 @@ url.includes('media'); // true
 Returns the primitive value of a variable
 
 ```JavaScript
-url.valueOf(); // https://traversymedia.com
+url.valueOf(); // https://nazrulislam.dev
 ```
 
 #### split()

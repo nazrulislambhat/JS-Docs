@@ -59,7 +59,7 @@ console.log(document.body);
 We can also access elements such as links and images. Let's add a link to the HTML
 
 ```HTML
-<a href="https://traversymedia.com">Traversy Media</a>
+<a href="https://nazrulislam.dev">Islam Media</a>
 ```
 
 We can get all of the links with
@@ -92,7 +92,7 @@ Just to give you a very simple example of selecting something from the DOM, let'
 <div id="main">
   <h1>The DOM</h1>
 
-  <a href="https://traversymedia.com">Traversy Media</a>
+  <a href="https://nazrulislam.dev">Islam Media</a>
 </div>
 ```
 

@@ -10,7 +10,7 @@ Fill out the form and click `Create Account`. You can also sign up with Google.
 
 ## Create an Organization
 
-Once you log in, create an organization. You can name it whatever you want. I'm going to name mine `Traversy Media`.
+Once you log in, create an organization. You can name it whatever you want. I'm going to name mine `Islam Media`.
 
 ## Create a Project
 
@@ -36,7 +36,7 @@ You will be able to see all of your data from here. You can also edit data, howe
 
 For now, let's go back to the Atlas dashboard/overview and click on `Connect`. Click on `Connect Your Application` and select `Node.js` from the dropdown. Copy the connection string and paste it anywhere for now. Mine looks like this
 
-mongodb+srv://brad:<password>@node-api-cluster.4nsqdlb.mongodb.net/ideas_db?retryWrites=true&w=majority
+mongodb+srv://Nazrul:<password>@node-api-cluster.4nsqdlb.mongodb.net/ideas_db?retryWrites=true&w=majority
 
 Change `<password>` to your password and add whatever you named your database after the last slash. I called mine 'ideas_db'.
 

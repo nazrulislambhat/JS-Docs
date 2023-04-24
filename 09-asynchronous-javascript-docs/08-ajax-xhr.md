@@ -21,7 +21,7 @@ Let's look at an example of how we do this within our code:
 ```js
 const xhr = new XMLHttpRequest();
 
-xhr.open('GET', 'https://api.github.com/users/bradtraversy');
+xhr.open('GET', 'https://api.github.com/users/NazrulIslam');
 
 xhr.onreadystatechange = function () {
   if (this.readyState === 4 && this.status === 200) {
@@ -43,7 +43,7 @@ const xhr = new XMLHttpRequest();
 Next, we use the `open()` method to initialize the request. We pass in the type of request we want to make, and the URL we want to make the request to. You can also pass in a third parameter to specify whether the request should be made asynchronously or not. This is `true` by default, but we can set it to `false` if we want to make a synchronous request, which will block the rest of the code from running until the request is complete. We won't be doing this in this course, but it's good to know that it's possible.
 
 ```js
-xhr.open('GET', 'https://api.github.com/users/bradtraversy');
+xhr.open('GET', 'https://api.github.com/users/NazrulIslam');
 ```
 
 Then we use the `onreadystatechange` event handler to listen for the `readystatechange` event. This event will fire every time the `readyState` changes. We can use this to check the status of the request. You can also use addEventListener() to listen for the event.
@@ -87,7 +87,7 @@ We will see the data in the console, but you can also look in your devtools `net
 If you want to try getting all of the GiHub repos for a user, you can use the following URL:
 
 ```js
-xhr.open('GET', 'https://api.github.com/users/bradtraversy/repos');
+xhr.open('GET', 'https://api.github.com/users/NazrulIslam/repos');
 ```
 
 Instead of getting back an object, you will get back an array of objects.

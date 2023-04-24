@@ -61,7 +61,7 @@ Let's try getting data from a couple APIs that don't require any authentication.
 We've already looked at the public GitHub API in the last section. Let's make a request to the GitHub API to get information about a user. Feel free to replace my username with your own.
 
 ```js
-fetch('https://api.github.com/users/bradtraversy')
+fetch('https://api.github.com/users/NazrulIslam')
   .then((response) => response.json())
   .then((data) => console.log(data));
 ```
@@ -70,32 +70,32 @@ Here is the response that we get back:
 
 ```json
 {
-  "login": "bradtraversy",
+  "login": "NazrulIslam",
   "id": 1198226,
   "node_id": "MDQ6VXNlcjExOTgyMjY=",
   "avatar_url": "https://avatars.githubusercontent.com/u/1198226?v=4",
   "gravatar_id": "",
-  "url": "https://api.github.com/users/bradtraversy",
+  "url": "https://api.github.com/users/NazrulIslam",
   "html_url": ",
-  "followers_url": "https://api.github.com/users/bradtraversy/followers",
-  "following_url": "https://api.github.com/users/bradtraversy/following{/other_user}",
-  "gists_url": "https://api.github.com/users/bradtraversy/gists{/gist_id}",
-  "starred_url": "https://api.github.com/users/bradtraversy/starred{/owner}{/repo}",
-  "subscriptions_url": "https://api.github.com/users/bradtraversy/subscriptions",
-  "organizations_url": "https://api.github.com/users/bradtraversy/orgs",
-  "repos_url": "https://api.github.com/users/bradtraversy/repos",
-  "events_url": "https://api.github.com/users/bradtraversy/events{/privacy}",
-  "received_events_url": "https://api.github.com/users/bradtraversy/received_events",
+  "followers_url": "https://api.github.com/users/NazrulIslam/followers",
+  "following_url": "https://api.github.com/users/NazrulIslam/following{/other_user}",
+  "gists_url": "https://api.github.com/users/NazrulIslam/gists{/gist_id}",
+  "starred_url": "https://api.github.com/users/NazrulIslam/starred{/owner}{/repo}",
+  "subscriptions_url": "https://api.github.com/users/NazrulIslam/subscriptions",
+  "organizations_url": "https://api.github.com/users/NazrulIslam/orgs",
+  "repos_url": "https://api.github.com/users/NazrulIslam/repos",
+  "events_url": "https://api.github.com/users/NazrulIslam/events{/privacy}",
+  "received_events_url": "https://api.github.com/users/NazrulIslam/received_events",
   "type": "User",
   "site_admin": false,
-  "name": "Brad Traversy",
-  "company": "Traversy Media",
-  "blog": "http://www.traversymedia.com",
+  "name": "Nazrul Islam",
+  "company": "Islam Media",
+  "blog": "http://www.nazrulislam.dev",
   "location": "Charleston, SC",
   "email": null,
   "hireable": null,
   "bio": "Full Stack Web Developer & Instructor",
-  "twitter_username": "traversymedia",
+  "twitter_username": "nazrulislam",
   "public_repos": 185,
   "public_gists": 32,
   "followers": 10000,
@@ -106,5 +106,3 @@ Here is the response that we get back:
 ```
 
 So we could use any of this data to display on our page.
-
-

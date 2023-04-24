@@ -33,7 +33,7 @@ The fetch API actually was not part of Node.js up until recently. We had to use 
 
 ```js
 async function getUser() {
-  const response = await fetch('https://api.github.com/users/bradtraversy');
+  const response = await fetch('https://api.github.com/users/NazrulIslam');
   const data = await response.json();
   console.log(data);
 }

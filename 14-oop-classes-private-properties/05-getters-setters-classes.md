@@ -97,6 +97,6 @@ set fullName(name) {
 Now we can just access the full name like a property.
 
 ```js
-const person = new Person('brad', 'traversy');
+const person = new Person('Nazrul', 'Islam');
 console.log(person.fullName); // John Doe
 ```

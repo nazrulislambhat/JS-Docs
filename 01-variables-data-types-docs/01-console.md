@@ -80,7 +80,7 @@ console.clear()
 If you want to log an object, you can format it as a table
 
 ```JavaScript
-console.table({ name: 'Brad', city: 'Boston' });
+console.table({ name: 'Nazrul', city: 'Boston' });
 ```
 
 ## `console.group()`

@@ -1,6 +1,6 @@
 # Webpack Setup
 
-Alright, now we are going to setup Webpack. Like I said, your configuration and what your tooling does can be as simple or advanced as you want. I'm going to try any keep it pretty simple. What I want to do is create a `webpack-starter` boilerplate that you can re-use in future applications. We're also going to use it to refactor the `Tracalorie` project. This is the boilerplate that I use. I will include the finished project in this lesson. I have a very similar project at https://github.com/bradtraversy/webpack-starter. It does have a few extra bells and whistles, but it is very similar and used in the same way.
+Alright, now we are going to setup Webpack. Like I said, your configuration and what your tooling does can be as simple or advanced as you want. I'm going to try any keep it pretty simple. What I want to do is create a `webpack-starter` boilerplate that you can re-use in future applications. We're also going to use it to refactor the `Tracalorie` project. This is the boilerplate that I use. I will include the finished project in this lesson. I have a very similar project at https://github.com/NazrulIslam/webpack-starter. It does have a few extra bells and whistles, but it is very similar and used in the same way.
 
 Let's start off by creating a folder called `webpack-starter`. Open it with your text editor and run `npm init` to create a package.json file.
 

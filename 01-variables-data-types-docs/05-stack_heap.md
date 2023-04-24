@@ -31,7 +31,7 @@ Now let's create a **person** `object`
 
 ```JavaScript
 const person = {
-  name: 'Brad',
+  name: 'Nazrul',
   age: 40
 }
 ```
@@ -73,10 +73,10 @@ Now the **newPerson** variable references the same value on the heap.
 If I were to update **newPerson** object's name value
 
 ```JavaScript
-newPerson.name = 'Bradley'
+newPerson.name = 'Nazrulley'
 ```
 
-It would change the reference in the heap as well and now both **person** and **newPerson** will have the name Bradley. This is because it is passed by reference.
+It would change the reference in the heap as well and now both **person** and **newPerson** will have the name Nazrulley. This is because it is passed by reference.
 
 <img src="images/stack6.png" alt="" style="width:500px;"/>
 

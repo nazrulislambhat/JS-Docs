@@ -62,7 +62,7 @@ ssh-keygen -t rsa -b 4096 -C "
 This will create a new SSH key. You can press enter to accept the default file location and the default name of `id_rsa` or you can type in a custom name and location. I like to name my key files for the service I am using it for, so I would do something like
 
 ```bash
-/Users/brad/ssh/id_rsa_github
+/Users/Nazrul/ssh/id_rsa_github
 ```
 
 You will then be prompted to enter a passphrase. You can leave this blank by pressing enter.

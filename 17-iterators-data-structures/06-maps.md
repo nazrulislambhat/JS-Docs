@@ -55,7 +55,7 @@ We can also use the `forEach` method to loop through the map. Let's create a new
 
 ```js
 const peopleMap = new Map();
-map.set('Brad', { phone: '555-555-5555', email: 'brad@gmail.com' });
+map.set('Nazrul', { phone: '555-555-5555', email: 'Nazrul@gmail.com' });
 map.set('John', { phone: '555-555-5555', email: 'john@gmail.com' });
 map.set('Jill', { phone: '555-555-5555', email: 'jill@gmail.com' });
 ```
@@ -71,9 +71,9 @@ peopleMap.forEach((person) => {
 We can also get the `keys`, `values` and `entries` from the map. These 3 methods return an iterator, so this should make sense if you watched the videos on iterators.
 
 ```js
-peopleMap.keys(); // MapIterator {"Brad", "John", "Jill"}
+peopleMap.keys(); // MapIterator {"Nazrul", "John", "Jill"}
 peopleMap.values(); // MapIterator {{…}, {…}, {…}}
-peopleMap.entries(); // MapIterator {"Brad" => {…}, "John" => {…}, "Jill" => {…}}
+peopleMap.entries(); // MapIterator {"Nazrul" => {…}, "John" => {…}, "Jill" => {…}}
 ```
 
 Let's use the `next()` method to get the first value from the `keys` iterator.

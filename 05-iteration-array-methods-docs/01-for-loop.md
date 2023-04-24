@@ -136,7 +136,7 @@ for (let i = 1; i <= 10; i++) {
 Arrays have a `forEach()` method that allows you to loop over them. This is the most common way to loop over an array and we will be looking at `forEach()` and other array methods soon, however I do want to show you that we can loop over an array with a `for` loop.
 
 ```JavaScript
-const names = ['Brad', 'Sam', 'Sara', 'John', 'Tim'];
+const names = ['Nazrul', 'Sam', 'Sara', 'John', 'Tim'];
 
 for (let i = 0; i < names.length; i++) {
     console.log(names[i]);

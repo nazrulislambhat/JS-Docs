@@ -1,6 +1,6 @@
 # Theme Setup
 
-For this project, we will be using a custom Bootstrap 5 theme that I created. We are not going to be typing out the HTML/CSS. I have included a folder called `tracalorie_theme` in the lesson files. It is also in the main GitHub repo in the `_theme` folder. You can find the final code at https://github.com/bradtraversy/tracalorie.
+For this project, we will be using a custom Bootstrap 5 theme that I created. We are not going to be typing out the HTML/CSS. I have included a folder called `tracalorie_theme` in the lesson files. It is also in the main GitHub repo in the `_theme` folder. You can find the final code at https://github.com/NazrulIslam/tracalorie.
 
 Take the theme folder and rename it to `tracalorie`. Open it up with `VS Code` and open `index.html` with the `Live Server` extension.
 

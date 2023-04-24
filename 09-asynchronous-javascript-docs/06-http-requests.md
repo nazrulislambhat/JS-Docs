@@ -59,7 +59,7 @@ Read more about status codes [here](https://developer.mozilla.org/en-US/docs/Web
 Let's make a request to an API right from our browser. We'll use the public GitHub API. APIs have different endpoints, which are just URLs that you can make requests to using certain HTTP methods to achieve certain results. The GitHub API has a few different endpoints, but we'll use the `users` endpoint. The `users` endpoint will return information about a GitHub user. Later, we'll do this from our code, but for now, let's go to the following URL in the browser:
 
 ```
-https://api.github.com/users/bradtraversy
+https://api.github.com/users/NazrulIslam
 ```
 
 You can replace my username with your own if you want. This will return a JSON object with information about the user. The data will show right in the browser. You can also see the response in the browser's developer tools `network` tab along with the headers and any other information including the status code of 200, which means successful.

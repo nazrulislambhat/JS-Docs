@@ -152,7 +152,7 @@ We can do the same type of thing with object literals. Now I know some of you ha
 
 ```JavaScript
 const person = {
-  name: 'Brad',
+  name: 'Nazrul',
 };
 
 person.name = 'John';
